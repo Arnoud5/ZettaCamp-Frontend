@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>ZETTABYTE-HTML-CSS</title>
+</head>
+<body>
+    <div class="container">
+        <!-- box 1 start -->
+        <div class="box"> <!--box contain-->
+            <img src="https://wallup.net/wp-content/uploads/2016/02/18/286966-nature-photography.jpg" alt="">
+            <div class="text-container">
+                <div class="titles-text-contain">
+                    <h3 class="text-title">Top Winter Location</h3>
+                    <p class="text-tags">More than 2,000 Location</p>
+                </div>
+                <p class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="btn-container">
+                <div class="btns">
+                    <p href="" class="share-btn">SHARE</p>
+                    <p href="" class="explore-btn" onclick="togleDesc()">EXPLORE</p>
+                </div>
+                <img class="arrow" src="./assets/arrow-down.png" alt="">
+            </div>
+        </div>
+        <!-- box 1 end -->
+
+        <!-- box 2 start -->
+        <div class="box"> <!--box contain-->
+            <img src="https://wallup.net/wp-content/uploads/2016/02/18/286966-nature-photography.jpg" alt="">
+            <div class="text-container">
+                <div class="titles-text-contain">
+                    <h3 class="text-title">Top Winter Location</h3>
+                    <p class="text-tags">More than 2,000 Location</p>
+                </div>
+                <!-- <p class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> -->
+            </div>
+            <div class="btn-container">
+                <div class="btns">
+                    <p href="" class="share-btn">SHARE</p>
+                    <p href="" class="explore-btn" onclick="togleDesc()">EXPLORE</p>
+                </div>
+                <img class="arrow" src="./assets/arrow-down.png" alt="">
+            </div>
+        </div>
+        <!-- box 2 end -->
+
+        <!-- box 3 start -->
+        <div class="box"> <!--box contain-->
+            <div class="profiles">
+                <img src="https://sm.askmen.com/t/askmen_in/article/f/facebook-p/facebook-profile-picture-affects-chances-of-gettin_fr3n.1200.jpg" alt="">
+                <div class="profiles-text">
+                    <p class="profile-name">Christy</p>
+                    <p class="profile-date">20 mins. ago</p>
+                </div>
+            </div>
+            <img src="https://wallup.net/wp-content/uploads/2016/02/18/286966-nature-photography.jpg" alt="">
+            <div class="text-container">
+                <div class="titles-text-contain">
+                    <h3 class="text-title">Top Winter Location</h3>
+                    <p class="text-tags">More than 2,000 Location</p>
+                </div>
+                <p class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <!-- <div class="btn-container">
+                <div class="btns">
+                    <a href="">SHARE</a>
+                    <a href="">EXPLORE</a>
+                </div>
+                <img class="arrow" src="./assets/arrow-down.png" alt="">
+            </div> -->
+        </div>
+        <!-- box 3 end -->
+
+        <!-- box 3 start -->
+        <div class="box"> <!--box contain-->
+            <!-- <div class="profiles">
+                <img src="https://sm.askmen.com/t/askmen_in/article/f/facebook-p/facebook-profile-picture-affects-chances-of-gettin_fr3n.1200.jpg" alt="">
+                <div class="profiles-text">
+                    <p class="profile-name">Christy</p>
+                    <p class="profile-date">20 mins. ago</p>
+                </div>
+            </div> -->
+            <img src="https://wallup.net/wp-content/uploads/2016/02/18/286966-nature-photography.jpg" alt="">
+            <!-- <div class="text-container">
+                <div class="titles-text-contain">
+                    <h3 class="text-title">Top Winter Location</h3>
+                    <p class="text-tags">More than 2,000 Location</p>
+                </div>
+                <p class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div> -->
+            <!-- <div class="btn-container">
+                <div class="btns">
+                    <a href="">SHARE</a>
+                    <a href="">EXPLORE</a>
+                </div>
+                <img class="arrow" src="./assets/arrow-down.png" alt="">
+            </div> -->
+            <div class="icons">
+                <img class="box-icon" src="./assets/like-filled.png" alt="">
+                <img class="box-icon" src="./assets/bookmark-filled.png" alt="">
+                <img class="box-icon" src="./assets/location.png" alt="">
+            </div>
+        </div>
+        <!-- box 3 end -->
+
+    </div>
+    <!-- pop up start -->
+    <div id="pop-up" style="display: none;">
+        <div class="pop-up-container">
+            <img src="https://wallup.net/wp-content/uploads/2016/02/18/286966-nature-photography.jpg" alt="">
+            <div class="text-container">
+                <div class="titles-text-contain">
+                    <h3 class="text-title">Top Winter Location</h3>
+                    <p class="text-tags">More than 2,000 Location</p>
+                </div>
+                <p class="text-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            </div>
+            <div class="close" onclick="togleDesc()">
+                <img src="./assets/close.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- pop up end -->
+
+</body>
+</html>
